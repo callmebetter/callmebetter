@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: 'https://github.com/callmebetter/callmebetter',
+  base: "/callmebetter",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -46,6 +46,10 @@ module.exports = {
         link: "/config/",
       },
       {
+        text: "git相关",
+        link: "/git/",
+      },
+      {
         text: "Foo",
         link: "/foo/",
       },
@@ -67,6 +71,13 @@ module.exports = {
           title: "Foo",
           collapsable: true,
           children: ["", "nodeList", "transform-origin"],
+        },
+      ],
+      "/git/": [
+        {
+          title: "About git",
+          collapsable: false,
+          children: ["", "empty"],
         },
       ],
     },
