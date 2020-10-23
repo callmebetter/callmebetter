@@ -1,0 +1,19 @@
+{
+  "name": "callmebetter",
+  "version": "0.0.1",
+  "description": "github blog",
+  "main": "index.js",
+  "authors": {
+    "name": "sayid",
+    "email": "843466900@qq.com"
+  },
+  "repository": "https://github.com/callmebetter/callmebetter.git/callmebetter",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
