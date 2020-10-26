@@ -31,11 +31,13 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
-    editLinks: false,
-    docsDir: "",
-    editLinkText: "",
-    lastUpdated: false,
+    repo: "https://github.com/callmebetter/callmebetter",
+    docsRepo: "https://github.com/callmebetter/callmebetter/docs",
+    editLinks: true,
+    docsDir: "docs",
+    docsBranch: 'gh-pages',
+    editLinkText: "帮忙我们改善此页面！",
+    lastUpdated: true,
     nav: [
       {
         text: "Guide",
@@ -52,11 +54,7 @@ module.exports = {
       {
         text: "Foo",
         link: "/foo/",
-      },
-      {
-        text: "My github",
-        link: "https://github.com/callmebetter",
-      },
+      }
     ],
     sidebar: {
       "/guide/": [
@@ -70,7 +68,7 @@ module.exports = {
         {
           title: "Foo",
           collapsable: true,
-          children: ["", "nodeList", "transform-origin"],
+          children: ["", "nodeList", "transform-origin", "sin"],
         },
       ],
       "/git/": [

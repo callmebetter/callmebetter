@@ -2,6 +2,7 @@
   "name": "callmebetter",
   "version": "0.0.1",
   "description": "github blog",
+  "homepage": "https://callmebetter.github.io/callmebetter",
   "main": "index.js",
   "authors": {
     "name": "sayid",
