@@ -68,7 +68,7 @@ module.exports = {
         {
           title: "Foo",
           collapsable: true,
-          children: ["", "nodeList", "transform-origin", "sin"],
+          children: ["", "nodeList", "transform-origin", "sin", "interview recall"],
         },
       ],
       "/git/": [
